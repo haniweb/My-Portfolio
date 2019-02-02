@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+html.body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+
+}
+header{
+    position: fixed;
+    z-index:1;
+    margin-top:30px;
+    margin-left:30px;
+    text-align:right;
+   
+
+
+    
+}
+
+ul,li{
+    list-style: none;
+    display: inline-block;
+} 
+ul,li,a{
+
+color:white;
+transition:all 1s;
+padding-left:15px;
+font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+ul,li,a:hover{
+    color:#5C555D;
+    text-decoration: none;
+    
+
+
+}
+.file{
+    color:rgb(133, 122, 134);
+    
+
+}
+
+.image{
+    width:110px;
+    height:auto;
+    position:absolute;
+    z-index:99;
+    top:-50px;
+    left:-50px;
+     
+}
+.col-md-2{
+    color:white;
+}
+.tof{
+background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)) ,url(../img/Peter-John-Villanueva-Background.jpg);
+background-size: 100% 100%;
+width:1150px;
+height:700px;
+margin-left:55px;
+}
+p{
+    text-align: center;
+    margin-top:10px;
+    
+    font-weight: bold;
+    font-size:20px;
+    color:#B8B3B9;
+}
+.field{
+margin-top:150px;
+border:1px solid white;
+width:800px;
+height:400px;
+margin-left:100px;
+color:black;
+}
+fieldset,ul,li{
+color:black;
+padding-top:5px;
+
+}
+.hay{
+    font-weight:bold;
+    color:#161516;
+    font-family:'Roboto Condensed';}
+    

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+html.body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+header{
+    position: fixed;
+    z-index:1;
+    margin-top:30px;
+    margin-left:30px;
+    text-align:right;
+}
+
+
+ul,li{
+    list-style: none;
+    display: inline-block;
+} 
+ul,li,a{
+
+color:white;
+transition:all 1s;
+padding-left:15px;
+
+}
+ul,li,a:hover{
+    color:#5C555D;
+    text-decoration: none;
+    
+
+
+}
+
+.image{
+    width:110px;
+    height:auto;
+    position:absolute;
+    z-index:99;
+    top:-50px;
+    left:-50px;
+     
+}
+.col-md-2{
+    color:white;
+}
+.tof{
+background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)) ,url(../img/work-wallpapper.jpg);
+background-size: 100% 100%;
+width:1150px;
+height:700px;
+margin-left:55px;
+}
+p{
+    text-align: center;
+    margin-top:280px;
+    font-weight: bold;
+    font-size:30px;
+    color:#B8B3B9;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.mycv{
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+.hou{
+    border-left-style: ridge;
+                        border-color:white;
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,500,600,400,700');
+html.body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto Condensed';
+
+
+}
+body{
+    height:1400px;
+}
+header{
+    
+    
+    
+    width:1126px;
+    text-align:right;
+    background: #CBCCCD;
+    padding-top:20px;
+    margin-left:100px;
+    font-family: 'Roboto Condensed';
+    
+
+    
+}
+
+ul,li{
+    list-style: none;
+    display: inline-block;
+}
+    
+ul,li,a{
+
+color:white;
+transition:all 1s;
+padding-left:15px;
+
+
+}
+ul,li,a:hover{
+    color:#5C555D;
+    text-decoration: none;
+    
+
+
+}
+
+.image{
+    width:110px;
+    height:auto;
+    position:absolute;
+    z-index:99;
+    top:-40px;
+    left:-125px;
+     
+}
+.file{
+    color:#5C555D;;
+    
+
+}
+.hani{
+    border:2px solid white;
+    position:absolute;
+    z-index:1;
+    
+}
+.title{
+    
+    border:2px solid white;
+    margin-left:76px;
+    text-align:center;
+    padding:15px;
+    height: 150px;
+    background:#7C7C89;
+    color:white;
+    font-family: 'Roboto Condensed';
+
+    
+    
+    
+}  
+.blue{
+    color:#89CACE;
+    font-weight: bold;
+}
+.info{
+    border:2px solid white;
+    margin-left:15px;
+    width:805px;
+    text-align:10px;
+    height:1000px;
+    background:#E3EAF3;
+    font-family: 'Roboto Condensed';
+
+
+}
+.edu{
+    text-align: center;
+    border-color:#7C7C89;
+    border-top-style: dotted ;
+    border-left-style: solid ;
+    border-right-style: solid ;
+    border-bottom-style: dotted ;
+    color:#565C6D;
+    font-family: 'Roboto Condensed';
+    
+
+
+    
+ 
+}
+.years{
+    border-left-style: solid;
+    font-size:20px;
+}
+ .parag{
+    font-family: 'Roboto Condensed';
+    font-size:20px;
+    text-decoration-line: underline;
+
+    }
+.position{
+    position: absolute;;
+    z-index: 5;
+    top:538px;
+}
+.skills{
+    display: inline-block;
+    border:1px solid white;
+    width: 300px;
+    background: #E3EAF3;
+    font-family: 'Roboto Condensed';
+    
+}
+.modif{
+    border-left-style: ridge;
+   
+    border-color:#7C7C89;
+}
+.tit{
+    text-align:center;
+    color:#8A9897;
+    font-family: 'Roboto Condensed';
+    text-decoration-line:underline;
+}
+
